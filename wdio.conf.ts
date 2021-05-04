@@ -225,7 +225,9 @@ export const config: WebdriverIO.Config = {
      */
     // afterTest: function(test, context, { error, result, duration, passed, retries }) {
     // },
-
+        before(){
+            require('expect-webdriverio')
+        }
 
     /**
      * Hook that gets executed after the suite has ended

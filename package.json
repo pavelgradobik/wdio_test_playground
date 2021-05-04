@@ -32,6 +32,10 @@
     "wdio-chromedriver-service": "^7.0.0"
   },
   "dependencies": {
-    "@wdio/cli": "^7.5.3"
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.0.1",
+    "@wdio/cli": "^7.5.3",
+    "expect": "^26.6.2",
+    "expect-webdriverio": "^2.0.1"
   }
 }
