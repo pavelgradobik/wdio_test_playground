@@ -1,0 +1,37 @@
+{
+  "name": "wdio_test_playground",
+  "version": "0.1.0",
+  "description": "wdio + ts tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelgradobik/wdio_test_playground.git"
+  },
+  "keywords": [
+    "wdio",
+    "test",
+    "ts"
+  ],
+  "author": "Pavlo Gradobik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavelgradobik/wdio_test_playground/issues"
+  },
+  "homepage": "https://github.com/pavelgradobik/wdio_test_playground#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^7.5.5",
+    "@wdio/mocha-framework": "^7.5.3",
+    "@wdio/spec-reporter": "^7.5.3",
+    "chromedriver": "^90.0.0",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.2.4",
+    "wdio-chromedriver-service": "^7.0.0"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.5.3"
+  }
+}
